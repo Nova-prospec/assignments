@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- include first name, last name, phone-number , email, gender, date of birth, favorite color -->
+    <!-- login page to include email and password -->
+    <form action="login.html" class="form">
+        <h1>Sign Up</h1>
+        <p>Fill in this form to create an account</p>
+        <hr>
+      <div class="container">
+        <div class="name-flex">
+            <input required class="text-input" placeholder="First Name" type="text">
+            <input required class="text-input" placeholder="Last Name" type="text">
+        </div>
+        <input required class="text-input" placeholder="Email" type="email">
+        <input required class="text-input"  placeholder="Phone Number" type="number">
+        <input required class="text-input"  placeholder="Password" type="password">
+        <label for="Date of birth">Date of birth</label>
+        <div>
+            <input type="date" name="" id="">
+        <label for="Gender">Gender</label>
+        </div>
+        <select name="Gender" >
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Others">Others</option>
+        </select>
+        <div class="color-div">
+            <label for="Favorite Colour">Favourite Colour</label>
+        <input type="color" name="" id="">
+        </div>
+      </div>
+      <div>
+        <button class="register-btn">Sign Up</button>
+      </div>
+     <p>Already have an account? <a href="login.html">Login here</a></p>
+    </form>
+</body>
+</html>

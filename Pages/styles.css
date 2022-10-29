@@ -1,0 +1,146 @@
+/* IMPORT FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap');
+/* GENERAL STYLING */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* SIGN UP PAGE */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(181, 181, 216);
+}
+.form{
+    height: 90vh;
+    width: 450px;
+    background-color:  #fff;
+    padding: 1.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: block;
+    border: none;
+}
+input:focus-visible{
+    outline: none;
+}
+.text-input{
+    margin-bottom: 0.8rem;
+    border-radius: 4px;
+    padding: 0.5rem;
+    background-color: #d3d3d3;
+}
+.name-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.name-flex input{
+    width: 49%;
+}
+.container{
+    margin-top: 0.5rem;
+}
+.container > input{
+    width: 100%;
+}
+.register-btn{
+    padding: 0.5rem 1rem;
+    background-color: rgb(128, 128, 189);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+.form p{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.form a{
+    color: #5b81d8;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* LOGIN PAGE */
+
+.login-form{
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.login-form div{
+    margin-top: 1rem;
+}
+.login-form h1{
+    text-align: center;
+}
+.login-form div input{
+    background-color:  transparent;
+    width: 100%;
+    padding: 0.4rem;
+    border-bottom: 2px solid #d3d3d3;
+}
+.login-form label{
+    font-size: 0.9rem;
+}
+.login-btn{
+    background-color: rgb(190, 137, 240);
+    border: none;
+    border-radius: 4px;
+    margin-top: 1rem;
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    color: #fff;
+}
+.login-form p{
+    font-size: 0.9rem;
+    margin-top: 1rem;
+}
+.login-form  a{
+    color: #5b81d8;
+}
+.login-form button a{
+    color: inherit;
+}
+.login-form div .submit-btn{
+        background-color: #5b81d8;
+        color: #fff;
+        border-radius: 5px;
+        margin-top: 1rem;
+        cursor: pointer;
+}
+
+/*  SUCESS PAGE */
+.sucess-container{
+    width: 350px;
+   height: 500px;
+   padding: 1.5rem;
+   background-color: #fff;
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   /* justify-content: center; */
+}
+.sucess-container img{
+    width: 250px;
+    height: 200px;
+}
